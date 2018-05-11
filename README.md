@@ -1,6 +1,10 @@
 Quill文本框的引用
 ====
 
+### [quill.js富文本编辑器的官网地址](https://quilljs.com/)
+### [quill.js富文本编辑器配置参数地址](https://quilljs.com/docs/configuration/)
+### [quill.js富文本编辑器API方法地址](https://quilljs.com/docs/api/)
+
 # react中使用
 ```
 import Quill from 'quill'
@@ -12,9 +16,10 @@ class aa extends Component {
   }
   this.editor = null
   this.quillObj = null
-  创建富文本(需要在componentDidMount中初始化)
+
+  // 创建富文本(需要在componentDidMount中初始化)
   addQuill () {
-      // 获取使用富文本的元素
+    // 获取使用富文本的元素
     const textbox = this.refs.textarea 
     // 富文本的基本参数
     const toolbarOptions = [
@@ -60,9 +65,9 @@ class aa extends Component {
 
   // 绑定富文本的输入框
   handleChange () {
-      let {value} = this.state
-      value = this.editor.root.innerHTML
-      this.setState({value},()=> {console.log(this.state.value)})
+    let {value} = this.state
+    value = this.editor.root.innerHTML
+    this.setState({value},()=> {console.log(this.state.value)})
   }
   
   // 上传图片
@@ -94,6 +99,4 @@ class aa extends Component {
 export default withRouter(skuOperate)
 ```
 
-[quill.js富文本编辑器的官网地址](https://quilljs.com/)
-[quill.js富文本编辑器配置参数地址](https://quilljs.com/docs/configuration/)
-[quill.js富文本编辑器API方法地址](https://quilljs.com/docs/api/)
+
