@@ -6,7 +6,7 @@ Quill文本框的引用
 ### [quill.js富文本编辑器API方法地址](https://quilljs.com/docs/api/)
 
 # react中使用
-quill的上传视频是通过填写视频链接即可，当前例子中包含有自定义的上传图片方法
+Quill的上传视频是通过填写视频链接即可，当前例子中包含有自定义的上传图片方法
 ```
 import Quill from 'quill'
 import 'quill/dist/quill.snow.css'

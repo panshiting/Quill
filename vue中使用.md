@@ -7,7 +7,7 @@ Quill文本框的引用
 
 # vue中使用
 vue中有封装好的quill组件  
-当前例子中只有简单的输入文本的实例
+下面使用vue封装的quill组件实现，简单的输入文本的例子
 ```
 <template>
   <div>
