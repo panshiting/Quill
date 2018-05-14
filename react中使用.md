@@ -97,7 +97,7 @@ class aa extends Component {
     )
   }
 }
-export default withRouter(skuOperate)
+export default withRouter(aa)
 ```
 
 
